@@ -44,17 +44,15 @@
 					{
 						$cols = 6;
 						?>
-                       <li><a href="index.php" >Beranda</a></li>
-                        <li><a href="page.php?halaman=1&page=1" class="active">Atlet</a></li>
+                        <li><a href="index.php" >Beranda</a></li>
+                        <li><a href="page.php?halaman=1&page=1">Atlet</a></li>
                         <li><a href="page.php?halaman=2&page=1">Wasit</a></li>
                         <li><a href="page.php?halaman=3&page=1">Pelatih</a></li>
                         <li><a href="page.php?halaman=4&page=1">GOR</a></li>
                         <li><a href="page.php?halaman=5&page=1">Club</a></li>
                         <li><a href="page.php?halaman=6&page=1">Prestasi Atlet</a></li>
-                        <li><a href="page.php?halaman=7&page=1">Prestasi Club</a></li>
-                        <li><a href="berita.php">Berita</a></li>
-                        <li><a href="page.php?halaman=8&page=1">User</a></li>
-                        <li><a href="d56b699830e77ba53855679cb1d252/logout.php">Logout</a></li>
+                        <li><a href="page.php?halaman=7&page=1" class="active">Prestasi Club</a></li>
+                        <li><a href="">About</a></li>
                         <?php
 					}else
 					if($halaman==2)
@@ -63,15 +61,13 @@
 						?>
                         <li><a href="index.php" >Beranda</a></li>
                         <li><a href="page.php?halaman=1&page=1">Atlet</a></li>
-                        <li><a href="page.php?halaman=2&page=1" class="active">Wasit</a></li>
+                        <li><a href="page.php?halaman=2&page=1">Wasit</a></li>
                         <li><a href="page.php?halaman=3&page=1">Pelatih</a></li>
                         <li><a href="page.php?halaman=4&page=1">GOR</a></li>
                         <li><a href="page.php?halaman=5&page=1">Club</a></li>
                         <li><a href="page.php?halaman=6&page=1">Prestasi Atlet</a></li>
-                        <li><a href="page.php?halaman=7&page=1">Prestasi Club</a></li>
-                        <li><a href="berita.php">Berita</a></li>
-                        <li><a href="page.php?halaman=8&page=1">User</a></li>
-                        <li><a href="login/logout.php">Logout</a></li>
+                        <li><a href="page.php?halaman=7&page=1" class="active">Prestasi Club</a></li>
+                        <li><a href="">About</a></li>
                         <?php
 					}else
 					if($halaman==3)
@@ -81,14 +77,12 @@
                         <li><a href="index.php" >Beranda</a></li>
                         <li><a href="page.php?halaman=1&page=1">Atlet</a></li>
                         <li><a href="page.php?halaman=2&page=1">Wasit</a></li>
-                        <li><a href="page.php?halaman=3&page=1" class="active">Pelatih</a></li>
+                        <li><a href="page.php?halaman=3&page=1">Pelatih</a></li>
                         <li><a href="page.php?halaman=4&page=1">GOR</a></li>
                         <li><a href="page.php?halaman=5&page=1">Club</a></li>
                         <li><a href="page.php?halaman=6&page=1">Prestasi Atlet</a></li>
-                        <li><a href="page.php?halaman=7&page=1">Prestasi Club</a></li>
-                        <li><a href="berita.php">Berita</a></li>
-                        <li><a href="page.php?halaman=8&page=1">User</a></li>
-                        <li><a href="login/logout.php">Logout</a></li>
+                        <li><a href="page.php?halaman=7&page=1" class="active">Prestasi Club</a></li>
+                        <li><a href="">About</a></li>
                         <?php
 					}else
 					if($halaman==4)
@@ -99,13 +93,11 @@
                         <li><a href="page.php?halaman=1&page=1">Atlet</a></li>
                         <li><a href="page.php?halaman=2&page=1">Wasit</a></li>
                         <li><a href="page.php?halaman=3&page=1">Pelatih</a></li>
-                        <li><a href="page.php?halaman=4&page=1" class="active">GOR</a></li>
+                        <li><a href="page.php?halaman=4&page=1">GOR</a></li>
                         <li><a href="page.php?halaman=5&page=1">Club</a></li>
                         <li><a href="page.php?halaman=6&page=1">Prestasi Atlet</a></li>
-                        <li><a href="page.php?halaman=7&page=1">Prestasi Club</a></li>
-                        <li><a href="berita.php">Berita</a></li>
-                        <li><a href="page.php?halaman=8&page=1">User</a></li>
-                        <li><a href="login/logout.php">Logout</a></li>
+                        <li><a href="page.php?halaman=7&page=1" class="active">Prestasi Club</a></li>
+                        <li><a href="">About</a></li>
                         <?php
 					}else
 					if($halaman==5)
@@ -117,29 +109,25 @@
                         <li><a href="page.php?halaman=2&page=1">Wasit</a></li>
                         <li><a href="page.php?halaman=3&page=1">Pelatih</a></li>
                         <li><a href="page.php?halaman=4&page=1">GOR</a></li>
-                        <li><a href="page.php?halaman=5&page=1" class="active">Club</a></li>
+                        <li><a href="page.php?halaman=5&page=1">Club</a></li>
                         <li><a href="page.php?halaman=6&page=1">Prestasi Atlet</a></li>
-                        <li><a href="page.php?halaman=7&page=1">Prestasi Club</a></li>
-                        <li><a href="berita.php">Berita</a></li>
-                        <li><a href="page.php?halaman=8&page=1">User</a></li>
-                        <li><a href="login/logout.php">Logout</a></li>
+                        <li><a href="page.php?halaman=7&page=1" class="active">Prestasi Club</a></li>
+                        <li><a href="">About</a></li>
                         <?php
 					}else
 					if($halaman==6)
 					{
 						$cols = 4;
 						?>
-                         <li><a href="index.php" >Beranda</a></li>
+                        <li><a href="index.php" >Beranda</a></li>
                         <li><a href="page.php?halaman=1&page=1">Atlet</a></li>
                         <li><a href="page.php?halaman=2&page=1">Wasit</a></li>
                         <li><a href="page.php?halaman=3&page=1">Pelatih</a></li>
                         <li><a href="page.php?halaman=4&page=1">GOR</a></li>
                         <li><a href="page.php?halaman=5&page=1">Club</a></li>
-                        <li><a href="page.php?halaman=6&page=1" class="active">Prestasi Atlet</a></li>
-                        <li><a href="page.php?halaman=7&page=1">Prestasi Club</a></li>
-                        <li><a href="berita.php">Berita</a></li>
-                        <li><a href="page.php?halaman=8&page=1">User</a></li>
-                        <li><a href="login/logout.php">Logout</a></li>
+                        <li><a href="page.php?halaman=6&page=1">Prestasi Atlet</a></li>
+                        <li><a href="page.php?halaman=7&page=1" class="active">Prestasi Club</a></li>
+                        <li><a href="">About</a></li>
                         <?php
 					}else
 					if($halaman==7)
@@ -154,9 +142,7 @@
                         <li><a href="page.php?halaman=5&page=1">Club</a></li>
                         <li><a href="page.php?halaman=6&page=1">Prestasi Atlet</a></li>
                         <li><a href="page.php?halaman=7&page=1" class="active">Prestasi Club</a></li>
-                        <li><a href="berita.php">Berita</a></li>
-                        <li><a href="page.php?halaman=8&page=1">User</a></li>
-                        <li><a href="login/logout.php">Logout</a></li>
+                        <li><a href="">About</a></li>
                         <?php
 					}else
 					if($halaman==8)
@@ -170,10 +156,8 @@
                         <li><a href="page.php?halaman=4&page=1">GOR</a></li>
                         <li><a href="page.php?halaman=5&page=1">Club</a></li>
                         <li><a href="page.php?halaman=6&page=1">Prestasi Atlet</a></li>
-                        <li><a href="page.php?halaman=7&page=1">Prestasi Club</a></li>
-                        <li><a href="berita.php">Berita</a></li>
-                        <li><a href="">User</a></li>
-                        <li><a href="login/logout.php">Logout</a></li>
+                        <li><a href="page.php?halaman=7&page=1" class="active">Prestasi Club</a></li>
+                        <li><a href="">About</a></li>
                         <?php
 					}else
 					{
