@@ -369,17 +369,37 @@
 				echo "Halaman tidak ditemukan";
 			}
 		}
-		if($statSDM == 'biasa')
+		if($halaman == 1)
 		{
-			$query   = "SELECT COUNT(*) AS jumData FROM $tabel";
+			$query = "SELECT COUNT(*) AS jumData FROM t_atlet";
 		}else
-		if($statSDM == 'WASIT')
+		if($halaman == 2)
 		{
-			$query   = "SELECT COUNT(*) AS jumData FROM $tabel where Profesi='WASIT'";
+			$query = "SELECT COUNT(*) AS jumData FROM t_sdm where Profesi='WASIT'";
 		}else
-		if($statSDM == 'PELATIH')
+		if($halaman == 3)
 		{
-			$query   = "SELECT COUNT(*) AS jumData FROM $tabel where Profesi='PELATIH'";
+			$query = "SELECT COUNT(*) AS jumData FROM t_sdm where Profesi='PELATIH'";
+		}else
+		if($halaman == 4)
+		{
+			$query = "SELECT COUNT(*) AS jumData FROM t_gor";
+		}else
+		if($halaman == 5)
+		{
+			$query = "SELECT COUNT(*) AS jumData FROM t_sor";
+		}else
+		if($halaman == 6)
+		{
+			$query = "SELECT COUNT(*) AS jumData FROM t_prestasi_atlet";
+		}else
+		if($halaman == 7)
+		{
+			$query = "SELECT COUNT(*) AS jumData FROM t_prestasi_club";
+		}
+		if($halaman == 7)
+		{
+			$query = "SELECT COUNT(*) AS jumData FROM petugas";
 		}
 		
 		$hasil  = mysql_query($query);
