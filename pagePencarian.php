@@ -264,7 +264,6 @@
 				?>
 				<tr bgcolor="#517DAE">
 				<h1 align="center" >Data Gedung Olahraga (GOR)</h1><br>
-				<td width="107"><font color="#FFFFFF"><center><b>Opsi</b></center></td>
 				<td width="107"><font color="#FFFFFF"><center><b>Nama Gedung</b></center></td>
 				<td width="107"><font color="#FFFFFF"><center><b>Cabang Olahraga</b></center></td>
 				<td width="107"><font color="#FFFFFF"><center><b>Standar Sarana</b></center></td>
