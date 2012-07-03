@@ -17,94 +17,7 @@ else{
 <title>Disbudparpora Sumedang</title>
 <meta charset="utf-8" />
 <link rel="stylesheet" href="../styles/elegant-press.css" type="text/css" />
-<script src="../scripts/elegant-press.js" type="text/javascript"></script>
-<script src="../amcharts/amcharts.js" type="text/javascript"></script>         
-<script type="text/javascript">
-	var chart;
-
-	var chartData = [{
-		country: "USA",
-		visits: 4025
-	}, {
-		country: "China",
-		visits: 1882
-	}, {
-		country: "54545",
-		visits: 1809
-	}, {
-		country: "Germany",
-		visits: 1322
-	}, {
-		country: "UK",
-		visits: 1122
-	}, {
-		country: "France",
-		visits: 1114
-	}, {
-		country: "India",
-		visits: 984
-	}, {
-		country: "Spain",
-		visits: 711
-	}, {
-		country: "Netherlands",
-		visits: 665
-	}, {
-		country: "Russia",
-		visits: 580
-	}, {
-		country: "South Korea",
-		visits: 443
-	}, {
-		country: "Canada",
-		visits: 441
-	}, {
-		country: "Brazil",
-		visits: 395
-	}, {
-		country: "Italy",
-		visits: 386
-	}, {
-		country: "Australia",
-		visits: 384
-	}, {
-		country: "Taiwan",
-		visits: 338
-	}, {
-		country: "Poland",
-		visits: 328
-	}];
-	
-	
-	AmCharts.ready(function () {
-		// SERIAL CHART
-		chart = new AmCharts.AmSerialChart();
-		chart.dataProvider = chartData;
-		chart.categoryField = "country";
-		chart.startDuration = 1;
-
-		// AXES
-		// category
-		var categoryAxis = chart.categoryAxis;
-		categoryAxis.labelRotation = 90;
-		categoryAxis.gridPosition = "start";
-
-		// value
-		// in case you don't want to change default settings of value axis,
-		// you don't need to create it, as one value axis is created automatically.
-
-		// GRAPH
-		var graph = new AmCharts.AmGraph();
-		graph.valueField = "visits";
-		graph.balloonText = "[[category]]: [[value]]";
-		graph.type = "column";
-		graph.lineAlpha = 0;
-		graph.fillAlphas = 0.8;
-		chart.addGraph(graph);
-
-		chart.write("chartdiv");
-	});
-</script>
+<script src="../scripts/elegant-press.js" type="text/javascript"></script>      
 <!--[if IE]><style>#header h1 a:hover{font-size:75px;}</style><![endif]-->
 </head>
 <body>
@@ -205,10 +118,7 @@ else{
 	<!--============================WASIT====================================!-->
 	<br><article class="box" id="home_featured21">
     
-    <?php
-	#chartData.country="ndjsajd";
-	#chartData.visits=1200;
-	
+    <?php	
 		$query = "SELECT count(*) AS jumCowok FROM t_sdm WHERE Profesi='WASIT' and Jenis_Kelamin = 'L'";
 		$hasil = mysql_query($query);
 		$data  = mysql_fetch_array($hasil);
@@ -256,7 +166,6 @@ else{
 			<?php
 		}
 	?>
-    <div id="chartdiv" style="width: 100%; height: 400px;"></div>
 	</article>
 	
     <!--============================PELATIH====================================!-->
